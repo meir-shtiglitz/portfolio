@@ -1,0 +1,24 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css'); */
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css'); */
+
+
+.none{
+    display: none;
+}
+
+.row{
+    --bs-gutter-x:0 !important;
+}
+
+.section-title{
+        font-family: serif;
+        padding: 25px;
+        text-transform: uppercase;
+}
+
+.section-title::after{
+    content:'__';
+    margin-top: -20px;
+    display: block;
+}

@@ -1,0 +1,94 @@
+.projects{
+    text-align: center;
+    justify-content: space-around;
+}
+
+#projects .load-more{
+        background-color: black;
+        margin-bottom: 30px !important;
+}
+
+.project{
+    background-color: black;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-hover{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: white;
+    width: 0%;
+    height: 0%;
+    top:6.5%;
+    left: 4%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-color: rgb(78 78 78);
+    transition: all 0.5s ease-in-out;
+}
+
+.project:hover > div.text-hover{
+    opacity: 1;
+    height: 87%;
+    width: 92%;
+}
+
+.text-hover a{
+    opacity: 0;
+    color: white;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.project:hover > div.text-hover a{
+    opacity: 1;
+}
+
+.text-hover p{
+    margin-top: 1rem;
+}
+
+.text-hover span{
+    color: rgb(219 195 195)
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.project img{
+    width: 100%;
+    height: 100%;
+    border: solid 1px gray;
+}
+
+@media only screen and (max-width:600px){
+    .text-hover a.btn {
+        width: 35%;
+        padding: 0;
+    }
+    
+    .text-hover p {
+        margin: 0.2em;
+        font-size: 0.8rem;
+    }
+    
+    .project.col-sm-5.mb-5.card {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    .text-hover h3 {
+        margin: 0;
+        font-size: 1.3rem;
+    }
+    
+    .text-hover span {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,21 @@
+#about{
+    background-color: rgb(248 249 250);
+    padding: 2% 0;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.about-content {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text {
+    margin-top: 35px;
+    font-size: 22px;
+    border-left: solid 2px #1e2231;
+    padding-left: 20px;
+}

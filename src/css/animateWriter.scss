@@ -1,0 +1,80 @@
+.wraphero{
+  background: url('../assets/images/code.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+  padding: 5vw;
+  padding-right:0;
+}
+
+.wraphero::after{
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.hero-text{
+  white-space: pre-line;
+  white-space: pre-wrap;
+  position: relative;
+  z-index: 2;
+  color: #9cdcfe;
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+
+.obj-name{
+  color: #74c3ed;
+}
+
+.var-highlight{
+    color: #569cd6;
+  }
+  .string-highlight{
+    color: #ce9178;
+  }
+  
+  #typewriter{
+      font-size: 2.1em;
+      margin: 0;
+      font-family: "Courier New";
+  
+      &:after{
+        content: "|";
+        animation: blink 500ms linear infinite alternate;
+      }
+  }
+  
+  @-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+  @media only screen and (max-width:600px){
+    .wraphero{
+      height: 210px;
+      width: 95vw;
+    }
+    div#typewriter {
+      font-size: 1rem;
+    }
+    .string-highlight{
+      font-size: 0.8rem;
+    }
+  }
