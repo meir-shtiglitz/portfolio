@@ -14,7 +14,7 @@ export const allProjects = [
         description: 'anice trivia game that you can creatr your game eithr and public it or save it privately it is can be a live game too',
         langs: ["React", "NodeJs", "MongoDB"],
         viewLink: 'https://mytriviali.herokuapp.com/',
-        gitLink: ''
+        gitLink: 'https://github.com/meir-shtiglitz/trivia'
     },
     {
         name: 'Newsletter Sistem',
@@ -22,7 +22,7 @@ export const allProjects = [
         description: 'This is a platform / site for creating and managing newsletter forms, Anyone can sign up enter the form details, choose the design and start',
         langs: ["React", "Redux", "NodeJs", "MongoDB"],
         viewLink: 'https://newsletter-services.herokuapp.com',
-        gitLink: ''
+        gitLink: 'https://github.com/meir-shtiglitz/newsletters'
     },
     {
         name: 'playlisten',
@@ -38,7 +38,7 @@ export const allProjects = [
         description: 'a cool game that it easier to build it than to finish it',
         langs: ["React"],
         viewLink: 'https://preactics.herokuapp.com/lights',
-        gitLink: ''
+        gitLink: 'https://github.com/meir-shtiglitz/night-to-light'
     },
     {
         name: 'Hello Meir',
@@ -46,7 +46,7 @@ export const allProjects = [
         description: 'my portfolio website',
         langs: ["React"],
         viewLink: '',
-        gitLink: ''
+        gitLink: 'https://github.com/meir-shtiglitz/portfoloio'
     },
     {
         name: 'Pais',
@@ -54,7 +54,7 @@ export const allProjects = [
         description: 'a classic game with a nice twist, includes login, registration, front and back hands, mail sending...',
         langs: ["php", "mysql", "jQuery"],
         viewLink: 'https://hellomeir.com/pais/',
-        gitLink: ''
+        gitLink: 'https://github.com/meir-shtiglitz/pais'
     },
     {
         name: 'Log Umagog',
@@ -70,6 +70,6 @@ export const allProjects = [
         description: 'The classic war game in cards with nice touches and animations, to finish the game please choose at the beginning to put 50 (for example) cards in a war case',
         langs: ["jQuery"],
         viewLink: 'https://hellomeir.com/var/',
-        gitLink: ''
+        gitLink: 'https://github.com/meir-shtiglitz/var-game'
     },
 ]
