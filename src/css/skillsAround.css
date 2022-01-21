@@ -98,3 +98,26 @@
       transform: rotate(360deg);
     }
   }
+
+  @media (max-width:600px) {
+    #skillsAround .fa {
+      font-size: 40px;
+  }
+
+  .main {
+    width: 250px;
+    height: 250px;
+  }
+
+  .main img{
+    width: 60px;
+  }
+  @keyframes spinAround {
+    from {
+      transform: rotate(0deg) translate(120px) scale(.5);
+    }
+    to {
+      transform: rotate(360deg) translate(120px) scale(.5);
+    }
+  }
+  }

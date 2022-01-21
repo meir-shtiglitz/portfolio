@@ -15,8 +15,7 @@
 
 @media only screen and (max-width:600px){
     nav {
-      width: 90%;
-      margin: auto;
-      text-align: center;  
+        padding: 0.5em 5%;
+        text-align: center;  
     }
 }
