@@ -46,7 +46,7 @@ export const allProjects = [
         description: 'my portfolio website',
         langs: ["React"],
         viewLink: '',
-        gitLink: 'https://github.com/meir-shtiglitz/portfoloio'
+        gitLink: 'https://github.com/meir-shtiglitz/portfolio'
     },
     {
         name: 'Pais',

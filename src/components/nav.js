@@ -27,10 +27,10 @@ const Nav = () => {
                         <NavLink onClick={scrollToSection} activeClassName="active" exact className="nav-link" to="/">Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink onClick={scrollToSection} activeClassName="active" exact className="nav-link" to="/#about">About</NavLink>
+                        <NavLink onClick={scrollToSection} activeClassName="active" exact className="nav-link" to="/#projects">Projects</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink onClick={scrollToSection} activeClassName="active" exact className="nav-link" to="/#projects">Projects</NavLink>
+                        <NavLink onClick={scrollToSection} activeClassName="active" exact className="nav-link" to="/#about">About</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink onClick={scrollToSection} activeClassName="active" exact className="nav-link" to="/#contact">Contact</NavLink>

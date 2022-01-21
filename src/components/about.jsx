@@ -13,7 +13,7 @@ const About = () => {
                             <div className="profile col-md-3"><SkillAround /></div>
                             {/* <img className="profile col-md-3" src={profileImg} alt="profile image" /> */}
                             <p className="col-md-6 about-text">
-                                I'm Meir Stieglitz, about a year and a half ago my acquaintance with the world of the web was more or less, an email address,
+                                I'm Meir Shtiglitz, about a year and a half ago my acquaintance with the world of the web was more or less, an email address,
                                 Today I write and read and even breathe web, but from its dark side ...
                                 Where will I be a year and a half ahead? I do not know, but I'm going to work hard and enjoy ...
                             </p>
