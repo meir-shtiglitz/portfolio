@@ -94,11 +94,11 @@ const Hero = () => {
                     name: <span className="string-highlight">'Meir Shtiglitz'</span>,{`\n${getSpace()}`}
                     type: <span className="string-highlight">'full stack developer'</span>,{`\n${getSpace()}`}
                     skills:[<span className="string-highlight">'JS'</span>,
-                    <span className="string-highlight">'NodeJs'</span>,{getSpace() !== '\t' && '\n\t'}
                     <span className="string-highlight">'React'</span>,
-                    {getSpace() === '\t' && <><span className="string-highlight">'Angular'</span>,</>}
-                    <span className="">...moreSkills</span>],{`\n${getSpace()}`}
-                    work: <span className="string-highlight">'open to job'</span>{'\n'}
+                    <span className="string-highlight">'Angular'</span>,{getSpace() !== '\t' && '\n\t '}
+                    <span className="string-highlight">'NodeJS'</span>,
+                    <span title="HTML, css, JS, React, Angular, NodeJS, MongoDB, Mysql, Git, php, jQuery" className="">...moreSkills</span>],{`\n${getSpace()}`}
+                    work: <span className="string-highlight">'open to work'</span>{'\n'}
                     {'}'};
                 </div>
             {/* </div> */}

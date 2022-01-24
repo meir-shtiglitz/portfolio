@@ -25,7 +25,7 @@ export const allProjects = [
         gitLink: 'https://github.com/meir-shtiglitz/newsletters'
     },
     {
-        name: 'playlisten',
+        name: 'Playlisten',
         img: playImg,
         description: 'create and listen to your lovely playlists',
         langs: ["Angular", "NodeJs", "MongoDB"],
@@ -67,7 +67,7 @@ export const allProjects = [
     {
         name: 'Var Game',
         img: varImg,
-        description: 'The classic war game in cards with nice touches and animations, to finish the game please choose at the beginning to put 50 (for example) cards in a war case',
+        description: 'The classic war game in cards with nice touches and animations',
         langs: ["jQuery"],
         viewLink: 'https://hellomeir.com/var/',
         gitLink: 'https://github.com/meir-shtiglitz/var-game'
