@@ -4,6 +4,9 @@ import Logo from "./logo";
 import "../css/nav.css";
 import { UseMenuScroll } from "../hooks/useMenuScroll";
 import { UseCloseMobileMenu } from "../hooks/useCloseMobMenu";
+import resume from "../assets/resume/Meir Shtiglitz.docx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 
 const Nav = () => {
 
@@ -34,6 +37,9 @@ const Nav = () => {
                     </li>
                     <li className="nav-item">
                         <NavLink onClick={scrollToSection} activeClassName="active" exact className="nav-link" to="/#contact">Contact</NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink onClick={scrollToSection} activeClassName="active" exact className="btn btn-outline-dark" target="_blank" download to={resume}>My Resume <FontAwesomeIcon icon={faFileDownload} /></NavLink>
                     </li>
                 </ul>
             </div>
