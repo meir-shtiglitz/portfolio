@@ -2,9 +2,6 @@ import About from "./about"
 import Contact from "./contact";
 import Hero from "./hero"
 import Projects from "./projects";
-import SkillBar from "./skillBar";
-import Skills from "./skills";
-import SkillAround from "./skillsAround";
 
 const Home = () => {
 
@@ -14,10 +11,6 @@ const Home = () => {
             <Projects />
             <About />
             <Contact />
-            {/* <SkillBar color="green" full={70} /> */}
-            {/* <Skills /> */}
-            {/* <SkillAround /> */}
-
         </>
     )
 }

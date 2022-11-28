@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 
 export const SendMail = async(data) => {
     try {
-        let result = await axios.post(process.env.REACT_APP_API, data,
+        await axios.post(process.env.REACT_APP_API, data,
         {headers:{
             "Content-Type": "application/json",
         }});

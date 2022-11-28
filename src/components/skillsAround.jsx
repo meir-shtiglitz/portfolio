@@ -15,7 +15,7 @@ const SkillAround = () => {
     return (
         <div id="skillsAround">
             <div className="main">
-                <img className="theSmiley" src={profileImg} />
+                <img className="theSmiley" src={profileImg} alt="smile" />
                 <div className="item" style={{ animationDelay: '-4.5s' }}>
                     <img title="React" alt="React" className="react" src={reactSvg} />
                 </div>

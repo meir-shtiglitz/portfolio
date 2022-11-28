@@ -3,7 +3,7 @@ import "../css/project.css";
 const Project = ({ p }) => {
     return (
         <div className="project col-sm-5 mb-5 card">
-            <img src={p.img} alt="image project" />
+            <img src={p.img} alt="project" />
             <div className="text">
 
             </div>

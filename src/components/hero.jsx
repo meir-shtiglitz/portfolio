@@ -4,14 +4,16 @@ const Hero = () => {
 
     const textRef = useRef();
 
+
+
     useEffect(() => {
+        const typewriter = (e) => {
+            const go = setupTypewriter(e);
+            go.type();
+        }
         typewriter(textRef.current);
     }, [])
 
-    const typewriter = (e) => {
-        const go = setupTypewriter(e);
-        go.type();
-    }
 
     const setupTypewriter = (t) => {
         var HTML = t.innerHTML;
@@ -79,9 +81,9 @@ const Hero = () => {
     }
 
     const getSpace = () => {
-        if(window.innerWidth > 600){
+        if (window.innerWidth > 600) {
             return '\t';
-        } else{
+        } else {
             return '   ';
         }
     }
@@ -89,18 +91,18 @@ const Hero = () => {
     return (
         <div className="wraphero">
             {/* <div className="container"> */}
-                <div className="hero-text" ref={textRef} id="typewriter">
-                    <span className="var-highlight">const</span> <span className="obj-name">helloMeir</span> = {'{'}{`\n${getSpace()}`}
-                    name: <span className="string-highlight">'Meir Shtiglitz'</span>,{`\n${getSpace()}`}
-                    type: <span className="string-highlight">'full stack developer'</span>,{`\n${getSpace()}`}
-                    skills:[<span className="string-highlight">'JS'</span>,
-                    <span className="string-highlight">'React'</span>,
-                    <span className="string-highlight">'Angular'</span>,{getSpace() !== '\t' && '\n\t '}
-                    <span className="string-highlight">'NodeJS'</span>,
-                    <span title="HTML, css, JS, React, Angular, NodeJS, MongoDB, Mysql, Git, php, jQuery" className="">...moreSkills</span>],{`\n${getSpace()}`}
-                    work: <span className="string-highlight">'open to work'</span>{'\n'}
-                    {'}'};
-                </div>
+            <div className="hero-text" ref={textRef} id="typewriter">
+                <span className="var-highlight">const</span> <span className="obj-name">helloMeir</span> = {'{'}{`\n${getSpace()}`}
+                name: <span className="string-highlight">'Meir Shtiglitz'</span>,{`\n${getSpace()}`}
+                type: <span className="string-highlight">'full stack developer'</span>,{`\n${getSpace()}`}
+                skills:[<span className="string-highlight">'JS'</span>,
+                <span className="string-highlight">'React'</span>,
+                <span className="string-highlight">'Angular'</span>,{getSpace() !== '\t' && '\n\t '}
+                <span className="string-highlight">'NodeJS'</span>,
+                <span title="HTML, css, JS, React, Angular, NodeJS, MongoDB, Mysql, Git, php, jQuery" className="">...moreSkills</span>],{`\n${getSpace()}`}
+                work: <span className="string-highlight">'open to work'</span>{'\n'}
+                {'}'};
+            </div>
             {/* </div> */}
         </div>
     )

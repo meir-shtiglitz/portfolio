@@ -1,4 +1,3 @@
-import profileImg from "../assets/images/profile.png";
 import "../css/about.css";
 import SkillAround from "./skillsAround";
 import text from "../assets/text.json";
@@ -13,7 +12,6 @@ const About = () => {
                     <div className="row">
                         <div className="col-md-12 row about-content">
                             <div className="profile col-md-3"><SkillAround /></div>
-                            {/* <img className="profile col-md-3" src={profileImg} alt="profile image" /> */}
                             <p className="col-md-6 about-text">{text.about}</p>
                         </div>
                     </div>
