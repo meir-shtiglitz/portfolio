@@ -6,22 +6,42 @@ import paisImg from "../assets/images/pais.png";
 import guessImg from "../assets/images/guess.png";
 import varImg from "../assets/images/var.png";
 import playImg from "../assets/images/play.png";
+import firemanImg from "../assets/images/fireman.png";
+import betKnessetImg from "../assets/images/knesset.png";
+
 
 export const allProjects = [
+    
+    {
+        name: 'Fireman',
+        img: firemanImg,
+        description: "A magician's site, a real and cool website.",
+        langs: ["React", "NodeJs", "MongoDB", "scss", "Cloud flare"],
+        viewLink: 'http://3.209.209.134:3030/',
+        gitLink: 'https://github.com/meir-shtiglitz/fireman'
+    },
     {
         name: 'Trivia',
         img: triviaImg,
         description: 'A nice Trivia game. You can create your own game. You can save it privately or public it. You can also play a live game.',
         langs: ["React", "NodeJs", "MongoDB"],
-        viewLink: 'https://mytriviali.herokuapp.com/',
+        viewLink: 'http://34.195.70.255:4040',
         gitLink: 'https://github.com/meir-shtiglitz/trivia'
+    },
+    {
+        name: 'Bet Knesset',
+        img: betKnessetImg,
+        description: 'A site for betting on the results of the Knesset elections, Including weighing, winners and more.',
+        langs: ["React", "NodeJs", "MongoDB", "scss"],
+        viewLink: 'http://betknesset.hellomeir.com:4000',
+        gitLink: 'https://github.com/meir-shtiglitz/bet-knesset'
     },
     {
         name: 'Newsletter Sistem',
         img: nlImg,
         description: 'This is a platform / site to creat and manage newsletter forms. Anyone can sign up, enter the form details, choose the design and start.',
         langs: ["React", "Redux", "NodeJs", "MongoDB"],
-        viewLink: 'https://newsletter-services.herokuapp.com',
+        viewLink: 'http://3.95.155.158:5000',
         gitLink: 'https://github.com/meir-shtiglitz/newsletters'
     },
     {
@@ -29,7 +49,7 @@ export const allProjects = [
         img: playImg,
         description: 'Create and listen to your favorite playlists.',
         langs: ["Angular", "NodeJs", "MongoDB"],
-        viewLink: 'https://play-listen.herokuapp.com',
+        viewLink: 'http://52.1.109.55:5050/',
         gitLink: 'https://github.com/meir-shtiglitz/playlist'
     },
     {
@@ -37,7 +57,7 @@ export const allProjects = [
         img: nflImg,
         description: 'A cool game, easier to build than to win...',
         langs: ["React"],
-        viewLink: 'https://preactics.herokuapp.com/lights',
+        viewLink: 'https://main.d192ds7wn35907.amplifyapp.com',
         gitLink: 'https://github.com/meir-shtiglitz/night-to-light'
     },
     {
