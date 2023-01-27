@@ -23,15 +23,15 @@ export const allProjects = [
     {
         name: 'Trivia',
         img: triviaImg,
-        description: 'A nice Trivia game. You can create your own game. You can save it privately or public it. You can also play a live game.',
-        langs: ["React", "NodeJs", "MongoDB"],
+        description: 'Create your own Trivia games. save it privately or public it. You can also play a live game.',
+        langs: ["React", "NodeJs", "MongoDB", "Socket.io"],
         viewLink: 'http://34.195.70.255:4040',
         gitLink: 'https://github.com/meir-shtiglitz/trivia'
     },
     {
         name: 'Bet Knesset',
         img: betKnessetImg,
-        description: 'A site for betting on the results of the Knesset elections, Including weighing, winners and more.',
+        description: 'A site for betting on the results of the Knesset elections.',
         langs: ["React", "NodeJs", "MongoDB", "scss"],
         viewLink: 'http://betknesset.hellomeir.com:4000',
         gitLink: 'https://github.com/meir-shtiglitz/bet-knesset'
@@ -39,7 +39,7 @@ export const allProjects = [
     {
         name: 'Newsletter Sistem',
         img: nlImg,
-        description: 'This is a platform / site to creat and manage newsletter forms. Anyone can sign up, enter the form details, choose the design and start.',
+        description: 'Create and manage your newsletter forms. choose the design and start.',
         langs: ["React", "Redux", "NodeJs", "MongoDB"],
         viewLink: 'http://3.95.155.158:5000',
         gitLink: 'https://github.com/meir-shtiglitz/newsletters'
