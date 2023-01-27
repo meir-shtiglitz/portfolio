@@ -71,12 +71,12 @@
     .text-hover a.btn {
         width: 35%;
         padding: 0;
-        font-size: 3vh;
+        font-size: 1rem;
     }
     
     .text-hover p {
         margin: 0.2em;
-        font-size: 3vh;
+        font-size: 1rem;
     }
     
     .project.col-sm-5.mb-5.card {
@@ -86,10 +86,10 @@
     
     .text-hover h3 {
         margin: 0;
-        font-size: 4vh;
+        font-size: 1.5rem;
     }
     
     .text-hover span {
-        font-size: 2.5vh;
+        font-size: 0.8rem;
     }
 }
