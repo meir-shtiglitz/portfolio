@@ -26,14 +26,14 @@ export const allProjects = [
         description: 'Create your own Trivia games. save it privately or public it. You can also play a live game.',
         langs: ["React", "NodeJs", "MongoDB", "Socket.io"],
         viewLink: 'http://34.195.70.255:4040',
-        gitLink: 'https://github.com/meir-shtiglitz/trivia'
+        gitLink: 'https://triviali.onrender.com/'
     },
     {
         name: 'Bet Knesset',
         img: betKnessetImg,
         description: 'A site for betting on the results of the Knesset elections.',
         langs: ["React", "NodeJs", "MongoDB", "scss"],
-        viewLink: 'http://betknesset.hellomeir.com:4000',
+        viewLink: 'https://bet-knesset.onrender.com',
         gitLink: 'https://github.com/meir-shtiglitz/bet-knesset'
     },
     {
@@ -42,14 +42,14 @@ export const allProjects = [
         description: 'Create and manage your newsletter forms. choose the design and start.',
         langs: ["React", "Redux", "NodeJs", "MongoDB"],
         viewLink: 'http://3.95.155.158:5000',
-        gitLink: 'https://github.com/meir-shtiglitz/newsletters'
+        gitLink: 'https://newsletters-4nsi.onrender.com'
     },
     {
         name: 'PlayListen',
         img: playImg,
         description: 'Create and listen to your favorite playlists.',
         langs: ["Angular", "NodeJs", "MongoDB"],
-        viewLink: 'http://52.1.109.55:5050/',
+        viewLink: 'https://playlist-jhn0.onrender.com',
         gitLink: 'https://github.com/meir-shtiglitz/playlist'
     },
     {
