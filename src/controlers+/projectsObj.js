@@ -25,8 +25,8 @@ export const allProjects = [
         img: triviaImg,
         description: 'Create your own Trivia games. save it privately or public it. You can also play a live game.',
         langs: ["React", "NodeJs", "MongoDB", "Socket.io"],
-        viewLink: 'http://34.195.70.255:4040',
-        gitLink: 'https://triviali.onrender.com/'
+        viewLink: 'https://triviali.onrender.com',
+        gitLink: 'https://github.com/meir-shtiglitz/trivia'
     },
     {
         name: 'Bet Knesset',
@@ -41,8 +41,8 @@ export const allProjects = [
         img: nlImg,
         description: 'Create and manage your newsletter forms. choose the design and start.',
         langs: ["React", "Redux", "NodeJs", "MongoDB"],
-        viewLink: 'http://3.95.155.158:5000',
-        gitLink: 'https://newsletters-4nsi.onrender.com'
+        viewLink: 'https://newsletters-4nsi.onrender.com',
+        gitLink: 'https://github.com/meir-shtiglitz/newsletters'
     },
     {
         name: 'PlayListen',
