@@ -17,7 +17,7 @@ export const allProjects = [
         img: firemanImg,
         description: "A magician's site, a real and cool website.",
         langs: ["React", "NodeJs", "MongoDB", "scss", "Cloud flare"],
-        viewLink: 'http://3.209.209.134:3030/',
+        viewLink: 'https://fireman.onrender.com/',
         gitLink: 'https://github.com/meir-shtiglitz/fireman'
     },
     {
